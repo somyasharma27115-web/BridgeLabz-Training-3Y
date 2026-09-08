@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+                background-color: burlywood;
+        }
+        .box{
+            height: 200px;
+            width:200px;
+            margin:30px;
+        }
+        #box1{
+            background-color: brown;
+            font-size:16px;
+            position: static;
+            left: 30px;
+            right: 30;
+
+        }
+        #box2{
+            background-color: chocolate;
+            font-size: 20px;
+            position:relative;
+            left: 20px;
+            right: 20;
+        }
+         #box3{
+            background-color: rgb(221, 124, 124);
+            font-size:20px;
+            position: absolute;
+            top:100px;
+        }
+        #box4{
+            background-color: rgb(198, 127, 76);
+            font-size: 25px;
+            position:fixed;
+            left: 20px;
+            right: 20;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="parent">
+
+        <div class="box" id="box1">
+            <h2>Box 1</h2>
+            <p>
+                first box Static. 
+            </p>
+        </div>
+
+        <div class="box" id="box2">
+            <h2>Box 2</h2>
+            <p>
+               second box Relative
+            </p>
+        </div>
+        <div class="box" id="box1">
+            <h2>Box 3</h2>
+            <p>
+                third box  Absolute
+            </p>
+        </div>
+
+        <div class="box" id="box2">
+            <h2>Box 4</h2>
+            <p>
+               fourth box  Fixed
+            </p>
+        </div>
+
+
+    </div>
+    
+</body>
+</html>
